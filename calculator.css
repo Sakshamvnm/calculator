@@ -33,15 +33,15 @@ body{
 
 #keys{
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 10px;
+	grid-template-columns: repeat(4, 0.5fr);
+	grid-gap: 5px;
 	padding: 20px;
 
 }
 
 
 button{
-	width: 100px;
+	width: 7y0px;
 	height: 100px;
 	border-radius: 20px;
 	border: none;
@@ -59,7 +59,7 @@ button:active{
 	background-color: hsl(0,0%,60%);
 }
 .operator-btn{
-	background-color: hsl(35,100%,60%);
+	background-color: hsl(35,100%,50%);
 }
 .operator-btn:hover{
 	background-color: hsl(35,100%,65%);
@@ -93,7 +93,5 @@ background-color: hsl(0,78%,58%);
 	width: 95%;
 	height: 100vh;
 	margin: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
 }
