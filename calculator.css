@@ -83,12 +83,9 @@ button:active{
 background-color: hsl(0,78%,58%);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1080px) {
     /* Additional mobile-specific styling */
-    #calculator {
-        max-width: 100%;
-    }
-
+	}
 .calculator{
 	width: 95%;
 	height: 100vh;
